@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body >
+  <body>
     <!-- header -->
     <header class="sm:px-5 md:px-0">
       <div class="navbar bg-base-100">
@@ -103,14 +103,29 @@
         </div>
       </div>
     </header>
-    <main>
+    <!-- main section -->
+    <main class="container max-w-7xl mx-auto">
       <!-- house section -->
-       <div>
-        <img class="mx-auto" src="./assets/banner.png" alt="">
-        <h1 class="text-4xl font-bold text-center">A barn house of this design has a <br> striking appearance </h1>
-        <h3 class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
-          accents, and large windows that flood the space with natural light</h3>
-       </div>
+      <div class="mx-auto lg:flex lg:flex-col">
+        <img class="mx-auto" src="./assets/banner.png" alt="" />
+        <h1 class=" text-xl lg:text-4xl font-bold text-center mb-3">
+          A barn house of this design has a <br />
+          striking appearance
+        </h1>
+        <h3 class="text-center mb-3">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light
+        </h3>
+        <div class="mx-auto">
+          <button class="btn bg-[#ABEF5F] hover:bg-[#ABEF5F] mx-auto  rounded-3xl w-full ">
+            View Details
+            <div class="bg-[#ABEF5F]  p-1">
+              <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+            </div>
+          </button>
+        </div>
+      </div>
     </main>
   </body>
 </html>
